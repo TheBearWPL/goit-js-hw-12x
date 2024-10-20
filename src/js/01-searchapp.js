@@ -9,7 +9,7 @@ const gallery = document.getElementById('gallery');
 const loader = document.getElementById('loader');
 const loadMoreBtn = document.getElementById('load-more');
 
-const API_KEY = '46626572-71017a8957be8250d73e50a3e';
+const API_KEY = '45947467-1fb23e21d26a094164d331d1f';
 
 let query = '';
 let page = 1;
@@ -26,6 +26,7 @@ form.addEventListener('submit', async e => {
     });
     return;
   }
+
   clearGallery();
   page = 1;
   loadMoreBtn.classList.add('hidden');
@@ -136,6 +137,7 @@ function scrollToNextBatch() {
     behavior: 'smooth',
   });
 }
+
 function handleError() {
   iziToast.error({
     title: 'Error',
