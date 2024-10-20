@@ -9,7 +9,7 @@ const gallery = document.getElementById('gallery');
 const loader = document.getElementById('loader');
 const loadMoreBtn = document.getElementById('load-more');
 
-const API_KEY = '45947467-1fb23e21d26a094164d331d1f';
+const API_KEY = '46626572-71017a8957be8250d73e50a3e';
 
 let query = '';
 let page = 1;
